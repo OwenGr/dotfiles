@@ -92,5 +92,7 @@ brew install tree
 brew install vbindiff
 brew install zopfli
 
+brew cask install visual-studio-code
+
 # Remove outdated versions from the cellar.
 brew cleanup
