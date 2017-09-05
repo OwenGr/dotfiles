@@ -35,3 +35,4 @@ export GPG_TTY=$(tty);
 
 # Golang support
 export GOPATH=$HOME/go
+export PATH="$GOPATH/bin:$PATH";
