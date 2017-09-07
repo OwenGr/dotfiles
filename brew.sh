@@ -96,5 +96,14 @@ brew install zopfli
 brew install go
 brew cask install visual-studio-code
 
+# Microsoft tools
+brew cask install dotnet
+brew cask install mono-mdk
+brew cask install powershell
+brew cask install virtualbox
+brew cask install vagrant
+
+nuget update -Self
+
 # Remove outdated versions from the cellar.
 brew cleanup
